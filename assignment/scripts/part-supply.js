@@ -70,8 +70,24 @@ console.log('8. Total supplies available is:', sum);
 //    no more boxes can be filled.
 //    Then log how many boxes were filled, and how many parts are left over.
 console.log('9. Filling boxes with a "while" loop');
+let boxes = 0;
+let parts = 572;
+
+while (parts >= 7) {
+  // how should one loop iteration modify boxes?
+  boxes++;
+  parts -= 7;
+  // how should one loop iteration modify parts?
+}
+
+// After loop is done, we should be able to log:
+console.log(`We filled ${boxes} boxes.`);
+console.log(`There were ${parts} left over.`);
 
 
+//I couldn't get the below code to work.  It runs one too many times.  I am wondering how to 
+//get this logic to work correctly/ as I intended.  Thanks for your thoughts!
+/*
 let totalBoxes = 0;
 let partsLeft = 0;
 let startingParts = 572;
@@ -83,5 +99,6 @@ while(totalBoxes * 7 <= 572){
 }
 console.log(totalBoxes);
 console.log(partsLeft);
+*/
 
 
