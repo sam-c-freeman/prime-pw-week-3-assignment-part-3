@@ -3,25 +3,6 @@ body {
     background-color: aquamarine;
 }
 
-.container {
-    display:grid;
-    height: 100vh;
-    grid-template-columns: 1fr 3fr;
-    grid-template-rows: 1fr 3fr 1fr;
-    grid-template-areas: "header header"
-                         "sidebar ol"
-                         "footer footer";
-    grid-gap: .2rem;
-  }
-header{
-    background-color: darkcyan;
-}
 
-  #sidebar {
-    background-color: bisque;
-
-  }
-
-  footer{
-    background-color: blue;
-  }
+/* I created a grid that didn't work, so I decided to take it out.  I have 
+been trying to wrap my brain around next week's work and wanted to focus on that! */
